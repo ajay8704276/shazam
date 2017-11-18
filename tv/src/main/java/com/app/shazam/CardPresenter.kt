@@ -12,7 +12,7 @@
  * the License.
  */
 
-package com.app.shazam;
+package com.app.shazam
 
 import android.graphics.drawable.Drawable
 import android.support.v17.leanback.widget.ImageCardView
