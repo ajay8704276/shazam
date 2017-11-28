@@ -24,37 +24,35 @@ android {
 
     flavorDimensions "default"
 
-    productFlavors{
+    productFlavors {
 
         // defining product flavours
 
-
         // development  version
-        dev{
+        dev {
 
             dimension "default"
             applicationIdSuffix '.dev'
             versionNameSuffix "-dev"
-            resValue("string","app_name","Shazam Dev Version")
+            resValue("string", "app_name", "Shazam Dev Version")
         }
 
-s
+        s
         // mock version
-        mock{
+        mock {
 
             dimension("default")
             applicationIdSuffix '.mock'
             versionNameSuffix "-mock"
-            resValue("string","app_name","Shazam Mock Version")
+            resValue("string", "app_name", "Shazam Mock Version")
         }
 
-
         // production version
-        prod{
+        prod {
             dimension "default"
             applicationIdSuffix '.prod'
             versionNameSuffix "-prod"
-            resValue("string","app_name","Shazam Prod Version")
+            resValue("string", "app_name", "Shazam Prod Version")
 
         }
     }
@@ -81,6 +79,8 @@ dependencies {
 
     // Other dependencies
     implementation "com.google.code.gson:gson:$rootProject.ext.gsonVersion"
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:support-v4:26.1.0'
     compile "com.github.bumptech.glide:glide:$rootProject.ext.glideVersion"
     compile "com.github.ybq:Android-SpinKit:$rootProject.ext.spinKitVersion"
 
