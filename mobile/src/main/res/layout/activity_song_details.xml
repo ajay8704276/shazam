@@ -5,4 +5,4 @@
     android:id="@+id/songDetailFragmentContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mobymagic.shazamclone.songdetail.SongDetailActivity" />
+    tools:context=".songdetails.SongDetailActivity" />
